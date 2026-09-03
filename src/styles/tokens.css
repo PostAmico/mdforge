@@ -1,0 +1,214 @@
+
+:root {
+  
+  
+  --bg-base: #fafaf7;
+  --bg-surface: #ffffff;
+  --bg-surface-2: #f4f3f0;
+  --bg-surface-3: #eceae6;
+
+  
+  --border-subtle: #e8e5de;
+  --border-default: #d4cfc5;
+  --border-strong: #b8b3a8;
+
+  /* ─── Text / Ink Scale ───
+   * Warm neutrals — not pure gray, lean toward sand/stone.
+   *
+   * The odd steps (30/50/70) were referenced in ~10 components but never
+   * defined, so `color: var(--ink-50)` silently produced an invalid value and
+   * the element inherited its parent's colour instead. They are interpolated
+   * between their neighbours here so those call sites render as intended. */
+  --ink-100: #1c1b18;
+  --ink-80: #3d3a34;
+  --ink-70: #4d493f;
+  --ink-60: #5c584e;
+  --ink-50: #736f63;
+  --ink-40: #8a8578;
+  --ink-30: #a19c90;
+  --ink-20: #b8b3a8;
+  --ink-10: #d4cfc5;
+
+  
+  /* The signature colour. Warm, rare in tech, unmistakable.
+   * Reserve it for primary action, active nav, and focus. */
+  --accent: #e54d2e;
+  --accent-hover: #cc4425;
+  --accent-active: #b33d20;
+  --accent-subtle: #fff0ed;
+  --accent-muted: #fdd8d0;
+
+  
+  --success: #2e7d5b;
+  --success-subtle: #e8f5ef;
+  --success-text: #1a5c40;
+
+  --warning: #c27a1a;
+  --warning-subtle: #fef4e4;
+  --warning-text: #8a5510;
+
+  --error: #c93b3b;
+  --error-subtle: #fdeaea;
+  --error-text: #8a2020;
+
+  --info: #2e6ab8;
+  --info-subtle: #e8f0fc;
+  --info-text: #1a4580;
+
+  
+  --ai-active: #e54d2e;
+  --ai-active-glow: rgba(229, 77, 46, 0.15);
+  --ai-active-pulse: rgba(229, 77, 46, 0.08);
+
+  
+  --platform-instagram: #e4405f;
+  --platform-facebook: #1877f2;
+  --platform-linkedin: #0a66c2;
+  --platform-youtube: #ff0000;
+  --platform-x: #1da1f2;
+  --platform-google: #4285f4;
+
+  
+  --nav-width: 56px;
+  --nav-width-expanded: 220px;
+  --content-max: 1120px;
+  --top-bar-height: 52px;
+  --status-bar-height: 36px;
+  --mobile-tab-bar-height: 64px;
+
+  
+  --shadow-xs: 0 1px 2px rgba(28, 27, 24, 0.04);
+  --shadow-sm: 0 2px 4px rgba(28, 27, 24, 0.06);
+  --shadow-md: 0 4px 12px rgba(28, 27, 24, 0.08);
+  --shadow-lg: 0 8px 24px rgba(28, 27, 24, 0.10);
+  --shadow-xl: 0 16px 48px rgba(28, 27, 24, 0.12);
+
+  
+  --bg-raised: var(--bg-surface);
+  --bg-overlay: var(--bg-surface-2);
+
+  
+  --text-primary: var(--ink-100);
+  --text-secondary: var(--ink-80);
+  --text-tertiary: var(--ink-60);
+  --text-disabled: var(--ink-40);
+  --text-inverse: #ffffff;
+
+  /* ─── Elevation (Light) ───
+   * Border-first: background step + border carry the hierarchy, shadow is
+   * reserved for surfaces that genuinely float. */
+  --elevation-0-bg: var(--bg-base);
+  --elevation-0-border: transparent;
+  --elevation-0-shadow: none;
+
+  --elevation-1-bg: var(--bg-surface);
+  --elevation-1-border: var(--border-subtle);
+  --elevation-1-shadow: 0 1px 2px rgba(28, 27, 24, 0.04);
+
+  --elevation-2-bg: var(--bg-surface);
+  --elevation-2-border: var(--border-default);
+  --elevation-2-shadow: 0 2px 8px rgba(28, 27, 24, 0.06);
+
+  --elevation-3-bg: var(--bg-surface);
+  --elevation-3-border: var(--border-default);
+  --elevation-3-shadow: 0 8px 24px rgba(28, 27, 24, 0.08);
+
+  --elevation-4-bg: var(--bg-surface);
+  --elevation-4-border: var(--border-strong);
+  --elevation-4-shadow: 0 16px 48px rgba(28, 27, 24, 0.12);
+
+  /* ─── Z-index Scale ───
+   * Not a Tailwind namespace (its z-* utilities are plain integers), so this
+   * stays here. Currently only --z-toast is consumed, but the scale is kept
+   * whole: the shell rebuild needs a single ordering authority for nav,
+   * overlays, modals, toasts and tooltips. */
+  --z-base: 0;
+  --z-raised: 10;
+  --z-nav: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+  --z-max: 9999;
+}
+
+[data-theme="dark"] {
+  --bg-base: #121316;
+  --bg-surface: #1a1c22;
+  --bg-surface-2: #22252d;
+  --bg-surface-3: #2a2d36;
+
+  --border-subtle: #2a2d36;
+  --border-default: #363940;
+  --border-strong: #4a4d56;
+
+  --ink-100: #ededec;
+  --ink-80: #c8c6c2;
+  --ink-70: #b3b0aa;
+  --ink-60: #9e9b93;
+  --ink-50: #858179;
+  --ink-40: #6b6860;
+  --ink-30: #54514a;
+  --ink-20: #3d3a34;
+  --ink-10: #2a2d36;
+
+  --accent: #f76b50;
+  --accent-hover: #ff8066;
+  --accent-active: #e54d2e;
+  --accent-subtle: #2b1a17;
+  --accent-muted: #3d2420;
+
+  --success: #4ecba0;
+  --success-subtle: #0e2818;
+  --success-text: #7eecc4;
+
+  --warning: #ffba42;
+  --warning-subtle: #261c08;
+  --warning-text: #ffd080;
+
+  --error: #ff6b6b;
+  --error-subtle: #2b1010;
+  --error-text: #ff9999;
+
+  --info: #6ba7f7;
+  --info-subtle: #0e1a2b;
+  --info-text: #99c4ff;
+
+  --ai-active: #f76b50;
+  --ai-active-glow: rgba(247, 107, 80, 0.2);
+  --ai-active-pulse: rgba(247, 107, 80, 0.1);
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.6);
+
+  /* Surface aliases and ink hierarchy re-resolve from the values above,
+   * but --text-inverse must flip explicitly. */
+  --text-inverse: #121316;
+
+  /* ─── Elevation (Dark) ───
+   * Shadows read poorly on dark surfaces, so hierarchy shifts to background
+   * steps, with a faint accent ring standing in for depth at the top end. */
+  --elevation-0-bg: var(--bg-base);
+  --elevation-0-border: transparent;
+  --elevation-0-shadow: none;
+
+  --elevation-1-bg: var(--bg-surface);
+  --elevation-1-border: var(--border-subtle);
+  --elevation-1-shadow: none;
+
+  --elevation-2-bg: var(--bg-surface-2);
+  --elevation-2-border: var(--border-default);
+  --elevation-2-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(247, 107, 80, 0.05);
+
+  --elevation-3-bg: var(--bg-surface-2);
+  --elevation-3-border: var(--border-strong);
+  --elevation-3-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(247, 107, 80, 0.1);
+
+  --elevation-4-bg: var(--bg-surface-3);
+  --elevation-4-border: var(--border-strong);
+  --elevation-4-shadow: 0 16px 48px rgba(0, 0, 0, 0.5), 0 0 0 1.5px rgba(247, 107, 80, 0.15);
+}

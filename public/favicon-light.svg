@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256mm"
+   height="256mm"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="favicon_light.svg"
+   inkscape:version="1.4.3 (0d15f750, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">PostAmico Favicon – Light</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.5"
+     inkscape:cx="573"
+     inkscape:cy="445"
+     inkscape:window-width="1470"
+     inkscape:window-height="838"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="matrix(1.4335336,0,0,1.4335336,-55.492303,-55.492301)"
+     style="stroke-width:0.697577">
+    <rect
+       style="opacity:1;fill:#eceae6;fill-opacity:1;stroke:none;stroke-width:7.67335;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.941176;paint-order:stroke fill markers"
+       id="rect3"
+       width="11"
+       height="155"
+       x="200"
+       y="50.500004"
+       ry="5.5" />
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#e54d2e;stroke-width:0.486614;stroke-linecap:square;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="m 128,69.5 c -32.231668,0 -58.5,26.268332 -58.5,58.5 0,32.23167 26.268332,58.5 58.5,58.5 32.23167,0 58.5,-26.26833 58.5,-58.5 0,-32.231668 -26.26833,-58.5 -58.5,-58.5 z m 0,13 c 25.20595,0 45.5,20.29405 45.5,45.5 0,25.20595 -20.29405,45.5 -45.5,45.5 -25.20595,0 -45.5,-20.29405 -45.5,-45.5 0,-25.20595 20.29405,-45.5 45.5,-45.5 z"
+       id="circle3" />
+    <rect
+       style="opacity:1;fill:#e54d2e;fill-opacity:1;stroke:none;stroke-width:9.0685;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect4"
+       width="12.8"
+       height="68.515999"
+       x="69.536011"
+       y="122.09984"
+       ry="7.1189518" />
+    <path
+       id="path35"
+       style="opacity:1;mix-blend-mode:luminosity;fill:#eceae6;fill-opacity:1;stroke:none;stroke-width:9.0685;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 127.99998,44.999898 C 82.160262,44.999841 44.999817,82.160286 44.999874,128 c 0.0074,14.77819 3.960342,29.28643 11.450464,42.02586 L 56.150615,132.65243 C 56.050358,131.10365 56.000206,129.55203 56.000236,128 56.000379,88.235701 88.235677,56.000403 127.99998,56.00026 167.76448,56.000116 200.0001,88.235499 200.00024,128 c 1.4e-4,39.76471 -32.23555,72.0004 -72.00026,72.00026 -23.1767,-8e-5 -44.936301,-11.15703 -58.463619,-29.97647 l 0.0016,16.89303 c 15.546618,15.42666 36.560489,24.08326 58.462069,24.08328 45.83971,6e-5 83.00016,-37.16039 83.0001,-83.0001 6e-5,-45.839712 -37.16039,-83.000157 -83.0001,-83.000102 z" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>PostAmico Favicon – Light</dc:title>
+        <dc:description>Official PostAmico favicon optimized for light browser themes. A simplified geometric representation of the PostAmico brand, designed for maximum clarity and recognition at small sizes. Suitable for browser tabs, bookmarks, progressive web applications, and desktop shortcuts on light backgrounds.</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>PostAmico</rdf:li>
+            <rdf:li>Favicon</rdf:li>
+            <rdf:li>Icon</rdf:li>
+            <rdf:li>Light Theme</rdf:li>
+            <rdf:li>Browser</rdf:li>
+            <rdf:li>AI</rdf:li>
+            <rdf:li>Marketing Automation</rdf:li>
+            <rdf:li>SVG</rdf:li>
+            <rdf:li>Brand Identity</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

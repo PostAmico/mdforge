@@ -1,0 +1,79 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+@plugin "@tailwindcss/typography";
+
+
+@theme inline {
+  
+  --color-bg-base: var(--bg-base);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-surface-2: var(--bg-surface-2);
+  --color-bg-surface-3: var(--bg-surface-3);
+  --color-bg-raised: var(--bg-raised);
+  --color-bg-overlay: var(--bg-overlay);
+
+  
+  --color-border-subtle: var(--border-subtle);
+  --color-border-default: var(--border-default);
+  --color-border-strong: var(--border-strong);
+
+  
+  --color-ink-100: var(--ink-100);
+  --color-ink-80: var(--ink-80);
+  --color-ink-60: var(--ink-60);
+  --color-ink-40: var(--ink-40);
+  --color-ink-20: var(--ink-20);
+  --color-ink-10: var(--ink-10);
+
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-disabled: var(--text-disabled);
+  --color-text-inverse: var(--text-inverse);
+
+  
+  --color-success: var(--success);
+  --color-success-subtle: var(--success-subtle);
+  --color-warning: var(--warning);
+  --color-warning-subtle: var(--warning-subtle);
+  --color-error: var(--error);
+  --color-error-subtle: var(--error-subtle);
+  --color-info: var(--info);
+  --color-info-subtle: var(--info-subtle);
+  --color-accent: var(--accent);
+
+  
+  --color-instagram: var(--platform-instagram);
+  --color-facebook: var(--platform-facebook);
+  --color-linkedin: var(--platform-linkedin);
+  --color-youtube: var(--platform-youtube);
+  --color-x: var(--platform-x);
+  --color-google: var(--platform-google);
+
+  
+  --shadow-elevation-0: var(--elevation-0-shadow);
+  --shadow-elevation-1: var(--elevation-1-shadow);
+  --shadow-elevation-2: var(--elevation-2-shadow);
+  --shadow-elevation-3: var(--elevation-3-shadow);
+  --shadow-elevation-4: var(--elevation-4-shadow);
+}
+
+@theme {
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-full: 9999px;
+
+  
+  --font-body: ui-sans-serif, system-ui, sans-serif;
+  --font-data: ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--ink-100);
+}
