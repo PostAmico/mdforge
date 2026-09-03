@@ -8,7 +8,6 @@ Turn markdown — with JSON charts and tables — into a clean, downloadable PDF
 
 [![npm version](https://img.shields.io/npm/v/@postamico/mdforge.svg)](https://www.npmjs.com/package/@postamico/mdforge)
 [![license](https://img.shields.io/npm/l/@postamico/mdforge.svg)](./LICENSE)
-[![CI](https://github.com/PostAmico/mdforge/actions/workflows/ci.yml/badge.svg)](https://github.com/PostAmico/mdforge/actions/workflows/ci.yml)
 
 <em>By <a href="https://github.com/PostAmico">PostAmico</a></em>
 
@@ -18,8 +17,8 @@ Turn markdown — with JSON charts and tables — into a clean, downloadable PDF
 <!-- SCREENSHOT / DEMO PLACEHOLDER                                            -->
 <!-- Drop a screenshot of the live demo (editor + preview) here, and a GIF   -->
 <!-- of a markdown → PDF/DOCX export. Suggested:                             -->
-[mdforge demo](./public/demo.png)
-[mdforge demo](./public/demo2.png)                                     
+![mdforge demo](./public/demo.png)
+![mdforge demo2](./public/demo2.png)                                     
 <!--   ![mdforge export recording](./docs/export.gif)                        -->
 <!-- ─────────────────────────────────────────────────────────────────────── -->
 
