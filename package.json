@@ -1,0 +1,117 @@
+{
+  "name": "@postamico/mdforge",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Forge markdown into polished PDF & DOCX. Pure Node, no headless browser. Supports JSON charts and tables. By PostAmico.",
+  "keywords": [
+    "markdown",
+    "pdf",
+    "docx",
+    "word",
+    "markdown-to-pdf",
+    "markdown-to-docx",
+    "report",
+    "chart",
+    "charts",
+    "llm",
+    "ai",
+    "no-puppeteer",
+    "no-chromium",
+    "pdfkit",
+    "document-generation"
+  ],
+  "author": "PostAmico (https://github.com/PostAmico)",
+  "contributors": [
+    "Aman Kumar"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PostAmico/mdforge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PostAmico/mdforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PostAmico/mdforge/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./chart-normalizer": {
+      "types": "./dist/chart-normalizer.d.ts",
+      "import": "./dist/chart-normalizer.js",
+      "require": "./dist/chart-normalizer.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build",
+    "demo:dev": "next dev",
+    "demo:build": "next build",
+    "demo:start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "marked": "^18.0.11",
+    "pdfkit": "^0.20.2"
+  },
+  "optionalDependencies": {
+    "@sgratzl/chartjs-chart-boxplot": "^4.4.5",
+    "canvas": "^3.2.3",
+    "chart.js": "^4.5.1",
+    "chartjs-chart-matrix": "^3.0.5",
+    "chartjs-chart-sankey": "^0.15.0",
+    "chartjs-chart-treemap": "^4.2.0"
+  },
+  "devDependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/marked": "^5.0.2",
+    "@types/node": "^20",
+    "@types/pdfkit": "^0.17.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "clsx": "^2.1.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "framer-motion": "^13.1.1",
+    "lucide-react": "^1.38.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-dropzone": "^20.1.1",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.10.1",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4",
+    "tsup": "^8.5.1",
+    "typescript": "^5",
+    "vitest": "^2.1.9"
+  }
+}
