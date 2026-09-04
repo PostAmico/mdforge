@@ -70,7 +70,7 @@
     "prepublishOnly": "npm run build",
     "demo:dev": "next dev",
     "demo:build": "next build",
-    "demo:start": "next start",
+    "demo:start": "next start -p ${PORT:-3000}",
     "lint": "eslint"
   },
   "dependencies": {

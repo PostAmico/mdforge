@@ -1,0 +1,19 @@
+# Render deployment config for the mdforge live demo (the Next.js app).
+#
+# The published npm package (dist/index.cjs) is a LIBRARY, not a server — do not
+# run it directly. Render must build and start the Next.js demo instead.
+services:
+  - type: web
+    name: mdforge-demo
+    runtime: node
+    plan: free
+    # Install deps (incl. optional canvas/chart.js so chart exports work on the
+    # full Node container) and build the Next.js app.
+    buildCommand: npm install && npm run demo:build
+    # Start the Next server; it binds to Render's $PORT via the demo:start script.
+    startCommand: npm run demo:start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: NODE_ENV
+        value: production
